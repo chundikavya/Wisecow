@@ -1,0 +1,22 @@
+1)Objective 1: System Health Monitoring Script
+This script will monitor CPU usage, memory usage, disk space, and running processes. If any of these metrics exceed predefined thresholds, it will log an alert.
+Objective 2: Automated Backup Solution
+This script will automate the backup of a specified directory to a remote server using rsync. The script will provide a report on the success or failure of the backup operation.Running the Scripts
+System Health Monitoring Script:
+
+Save the script as system_health_monitor.py.
+Run the script: python system_health_monitor.py.
+It will log system health metrics and warnings to system_health.log.
+Automated Backup Solution:
+
+Save the script as automated_backup.py.
+Ensure rsync is installed and you have SSH access to the remote server.
+Run the script: python automated_backup.py.
+It will log the success or failure of the backup to backup.log.
+By running these scripts, you will achieve system health monitoring and automated backups with reports on their status.
+
+
+
+
+
+
